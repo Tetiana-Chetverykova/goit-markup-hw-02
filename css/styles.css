@@ -13,9 +13,6 @@ a {
 button {
   cursor: pointer;
 }
-img {
-  display: block;
-}
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -23,10 +20,10 @@ img {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42;
+  color: #4d5ae5;
 }
 .logo-color {
-  color: #4d5ae5;
+  color: #2e2f42;
 }
 .menu-link {
   font-weight: 500;
@@ -57,7 +54,7 @@ img {
 }
 .main-title-text {
   font-size: 56px;
-  line-height: 1.07143;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
@@ -70,7 +67,8 @@ img {
   color: #fff;
   background: #4d5ae5;
 }
-.main-title-button:hover {
+.main-title-button:hover,
+.main-title-button:focus {
   background: #404bbf;
 }
 .studio-rules {
@@ -86,6 +84,9 @@ img {
   letter-spacing: 0.02em;
   color: #434455;
 }
+.team {
+  background-color: #f4f4fd;
+}
 .team-title {
   font-size: 36px;
   line-height: 1.11;
@@ -93,6 +94,9 @@ img {
   text-transform: capitalize;
   text-align: center;
   color: #2e2f42;
+}
+.team-item-color {
+  background-color: #ffffff;
 }
 .team-name {
   font-weight: 500;
@@ -123,12 +127,13 @@ img {
   color: #434455;
 }
 .logo-foot {
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #f4f4fd;
+  color: #4d5ae5;
 }
 .resume-description {
   font-family: "Roboto", sans-serif;
@@ -136,5 +141,8 @@ img {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: #f4f4fd;
+}
+.logo-color-foot {
   color: #f4f4fd;
 }
